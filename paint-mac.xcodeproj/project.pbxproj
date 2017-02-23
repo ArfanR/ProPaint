@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		923147CE1BAE3CB5001699FD /* Command.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 923147BF1BAE3CB5001699FD /* Command.cpp */; };
+		923147CF1BAE3CB5001699FD /* Cursors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 923147C11BAE3CB5001699FD /* Cursors.cpp */; };
+		923147D01BAE3CB5001699FD /* PaintApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 923147C41BAE3CB5001699FD /* PaintApp.cpp */; };
+		923147D11BAE3CB5001699FD /* PaintDrawPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 923147C61BAE3CB5001699FD /* PaintDrawPanel.cpp */; };
+		923147D21BAE3CB5001699FD /* PaintFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 923147C81BAE3CB5001699FD /* PaintFrame.cpp */; };
+		923147D31BAE3CB5001699FD /* PaintModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 923147CA1BAE3CB5001699FD /* PaintModel.cpp */; };
+		923147D41BAE3CB5001699FD /* Shape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 923147CC1BAE3CB5001699FD /* Shape.cpp */; };
+		92F34CA11A5200F300A998AC /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92F34CA01A5200F300A998AC /* CoreFoundation.framework */; };
+		C48E95F01E5B14440067CD37 /* DrawCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C48E95EE1E5B14440067CD37 /* DrawCommand.cpp */; };
+		C48E95F31E5BEB150067CD37 /* RectShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C48E95F11E5BEB150067CD37 /* RectShape.cpp */; };
+		C48E95F61E5C46650067CD37 /* EllipseShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C48E95F41E5C46650067CD37 /* EllipseShape.cpp */; };
+		C48E95F91E5C4A390067CD37 /* LineShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C48E95F71E5C4A390067CD37 /* LineShape.cpp */; };
+		C48E95FC1E5C4CF80067CD37 /* PencilShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C48E95FA1E5C4CF80067CD37 /* PencilShape.cpp */; };
+		C48E95FF1E5CB7D20067CD37 /* SetPenCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C48E95FD1E5CB7D20067CD37 /* SetPenCommand.cpp */; };
+		C48E96021E5CB7E90067CD37 /* SetBrushCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C48E96001E5CB7E90067CD37 /* SetBrushCommand.cpp */; };
+		C48E96051E5DF2990067CD37 /* DeleteCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C48E96031E5DF2990067CD37 /* DeleteCommand.cpp */; };
+		C48E960B1E5E4D780067CD37 /* MoveCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C48E96091E5E4D780067CD37 /* MoveCommand.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		92F34C941A5200BC00A998AC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		923147BF1BAE3CB5001699FD /* Command.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Command.cpp; sourceTree = "<group>"; };
+		923147C01BAE3CB5001699FD /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		923147C11BAE3CB5001699FD /* Cursors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cursors.cpp; sourceTree = "<group>"; };
+		923147C21BAE3CB5001699FD /* Cursors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cursors.h; sourceTree = "<group>"; };
+		923147C31BAE3CB5001699FD /* EventID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventID.h; sourceTree = "<group>"; };
+		923147C41BAE3CB5001699FD /* PaintApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PaintApp.cpp; sourceTree = "<group>"; };
+		923147C51BAE3CB5001699FD /* PaintApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintApp.h; sourceTree = "<group>"; };
+		923147C61BAE3CB5001699FD /* PaintDrawPanel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PaintDrawPanel.cpp; sourceTree = "<group>"; };
+		923147C71BAE3CB5001699FD /* PaintDrawPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintDrawPanel.h; sourceTree = "<group>"; };
+		923147C81BAE3CB5001699FD /* PaintFrame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PaintFrame.cpp; sourceTree = "<group>"; };
+		923147C91BAE3CB5001699FD /* PaintFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintFrame.h; sourceTree = "<group>"; };
+		923147CA1BAE3CB5001699FD /* PaintModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PaintModel.cpp; sourceTree = "<group>"; };
+		923147CB1BAE3CB5001699FD /* PaintModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintModel.h; sourceTree = "<group>"; };
+		923147CC1BAE3CB5001699FD /* Shape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shape.cpp; sourceTree = "<group>"; };
+		923147CD1BAE3CB5001699FD /* Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		92F34C961A5200BC00A998AC /* paint-mac */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "paint-mac"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92F34CA01A5200F300A998AC /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		C48E95EE1E5B14440067CD37 /* DrawCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DrawCommand.cpp; sourceTree = "<group>"; };
+		C48E95EF1E5B14440067CD37 /* DrawCommand.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DrawCommand.hpp; sourceTree = "<group>"; };
+		C48E95F11E5BEB150067CD37 /* RectShape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RectShape.cpp; sourceTree = "<group>"; };
+		C48E95F21E5BEB150067CD37 /* RectShape.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RectShape.hpp; sourceTree = "<group>"; };
+		C48E95F41E5C46650067CD37 /* EllipseShape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EllipseShape.cpp; sourceTree = "<group>"; };
+		C48E95F51E5C46650067CD37 /* EllipseShape.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EllipseShape.hpp; sourceTree = "<group>"; };
+		C48E95F71E5C4A390067CD37 /* LineShape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LineShape.cpp; sourceTree = "<group>"; };
+		C48E95F81E5C4A390067CD37 /* LineShape.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LineShape.hpp; sourceTree = "<group>"; };
+		C48E95FA1E5C4CF80067CD37 /* PencilShape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PencilShape.cpp; sourceTree = "<group>"; };
+		C48E95FB1E5C4CF80067CD37 /* PencilShape.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PencilShape.hpp; sourceTree = "<group>"; };
+		C48E95FD1E5CB7D20067CD37 /* SetPenCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SetPenCommand.cpp; sourceTree = "<group>"; };
+		C48E95FE1E5CB7D20067CD37 /* SetPenCommand.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SetPenCommand.hpp; sourceTree = "<group>"; };
+		C48E96001E5CB7E90067CD37 /* SetBrushCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SetBrushCommand.cpp; sourceTree = "<group>"; };
+		C48E96011E5CB7E90067CD37 /* SetBrushCommand.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SetBrushCommand.hpp; sourceTree = "<group>"; };
+		C48E96031E5DF2990067CD37 /* DeleteCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DeleteCommand.cpp; sourceTree = "<group>"; };
+		C48E96041E5DF2990067CD37 /* DeleteCommand.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DeleteCommand.hpp; sourceTree = "<group>"; };
+		C48E96091E5E4D780067CD37 /* MoveCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MoveCommand.cpp; sourceTree = "<group>"; };
+		C48E960A1E5E4D780067CD37 /* MoveCommand.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MoveCommand.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92F34C931A5200BC00A998AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F34CA11A5200F300A998AC /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		923147D51BAE3CC4001699FD /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				923147BF1BAE3CB5001699FD /* Command.cpp */,
+				923147C11BAE3CB5001699FD /* Cursors.cpp */,
+				923147C41BAE3CB5001699FD /* PaintApp.cpp */,
+				923147C61BAE3CB5001699FD /* PaintDrawPanel.cpp */,
+				923147C81BAE3CB5001699FD /* PaintFrame.cpp */,
+				923147CA1BAE3CB5001699FD /* PaintModel.cpp */,
+				923147CC1BAE3CB5001699FD /* Shape.cpp */,
+				C48E95EE1E5B14440067CD37 /* DrawCommand.cpp */,
+				C48E95F11E5BEB150067CD37 /* RectShape.cpp */,
+				C48E95F41E5C46650067CD37 /* EllipseShape.cpp */,
+				C48E95F71E5C4A390067CD37 /* LineShape.cpp */,
+				C48E95FA1E5C4CF80067CD37 /* PencilShape.cpp */,
+				C48E95FD1E5CB7D20067CD37 /* SetPenCommand.cpp */,
+				C48E96001E5CB7E90067CD37 /* SetBrushCommand.cpp */,
+				C48E96031E5DF2990067CD37 /* DeleteCommand.cpp */,
+				C48E96091E5E4D780067CD37 /* MoveCommand.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		923147D61BAE3CCF001699FD /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				C48E96041E5DF2990067CD37 /* DeleteCommand.hpp */,
+				C48E960A1E5E4D780067CD37 /* MoveCommand.hpp */,
+				C48E96011E5CB7E90067CD37 /* SetBrushCommand.hpp */,
+				C48E95FE1E5CB7D20067CD37 /* SetPenCommand.hpp */,
+				C48E95FB1E5C4CF80067CD37 /* PencilShape.hpp */,
+				C48E95F81E5C4A390067CD37 /* LineShape.hpp */,
+				C48E95F51E5C46650067CD37 /* EllipseShape.hpp */,
+				C48E95F21E5BEB150067CD37 /* RectShape.hpp */,
+				C48E95EF1E5B14440067CD37 /* DrawCommand.hpp */,
+				923147C01BAE3CB5001699FD /* Command.h */,
+				923147C21BAE3CB5001699FD /* Cursors.h */,
+				923147C31BAE3CB5001699FD /* EventID.h */,
+				923147C51BAE3CB5001699FD /* PaintApp.h */,
+				923147C71BAE3CB5001699FD /* PaintDrawPanel.h */,
+				923147C91BAE3CB5001699FD /* PaintFrame.h */,
+				923147CB1BAE3CB5001699FD /* PaintModel.h */,
+				923147CD1BAE3CB5001699FD /* Shape.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		92F34C8D1A5200BC00A998AC = {
+			isa = PBXGroup;
+			children = (
+				923147D61BAE3CCF001699FD /* Headers */,
+				923147D51BAE3CC4001699FD /* Source */,
+				92F34C971A5200BC00A998AC /* Products */,
+				92F34CA01A5200F300A998AC /* CoreFoundation.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		92F34C971A5200BC00A998AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92F34C961A5200BC00A998AC /* paint-mac */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92F34C951A5200BC00A998AC /* paint-mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92F34C9D1A5200BC00A998AC /* Build configuration list for PBXNativeTarget "paint-mac" */;
+			buildPhases = (
+				92F34C921A5200BC00A998AC /* Sources */,
+				92F34C931A5200BC00A998AC /* Frameworks */,
+				92F34C941A5200BC00A998AC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "paint-mac";
+			productName = "paint-mac";
+			productReference = 92F34C961A5200BC00A998AC /* paint-mac */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92F34C8E1A5200BC00A998AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Sanjay Madhav";
+				TargetAttributes = {
+					92F34C951A5200BC00A998AC = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 92F34C911A5200BC00A998AC /* Build configuration list for PBXProject "paint-mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 92F34C8D1A5200BC00A998AC;
+			productRefGroup = 92F34C971A5200BC00A998AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92F34C951A5200BC00A998AC /* paint-mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92F34C921A5200BC00A998AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48E96051E5DF2990067CD37 /* DeleteCommand.cpp in Sources */,
+				C48E95F61E5C46650067CD37 /* EllipseShape.cpp in Sources */,
+				923147CE1BAE3CB5001699FD /* Command.cpp in Sources */,
+				923147D41BAE3CB5001699FD /* Shape.cpp in Sources */,
+				C48E95FF1E5CB7D20067CD37 /* SetPenCommand.cpp in Sources */,
+				923147D11BAE3CB5001699FD /* PaintDrawPanel.cpp in Sources */,
+				C48E960B1E5E4D780067CD37 /* MoveCommand.cpp in Sources */,
+				923147D31BAE3CB5001699FD /* PaintModel.cpp in Sources */,
+				923147D21BAE3CB5001699FD /* PaintFrame.cpp in Sources */,
+				C48E95F01E5B14440067CD37 /* DrawCommand.cpp in Sources */,
+				C48E95F91E5C4A390067CD37 /* LineShape.cpp in Sources */,
+				C48E95FC1E5C4CF80067CD37 /* PencilShape.cpp in Sources */,
+				C48E95F31E5BEB150067CD37 /* RectShape.cpp in Sources */,
+				923147CF1BAE3CB5001699FD /* Cursors.cpp in Sources */,
+				923147D01BAE3CB5001699FD /* PaintApp.cpp in Sources */,
+				C48E96021E5CB7E90067CD37 /* SetBrushCommand.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		92F34C9B1A5200BC00A998AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = (
+					"-Wno-inconsistent-missing-override",
+					"-Wno-potentially-evaluated-expression",
+				);
+			};
+			name = Debug;
+		};
+		92F34C9C1A5200BC00A998AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = (
+					"-Wno-inconsistent-missing-override",
+					"-Wno-potentially-evaluated-expression",
+				);
+			};
+			name = Release;
+		};
+		92F34C9E1A5200BC00A998AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../wx/include",
+					"$(SRCROOT)/../wx/lib/osx_cocoa-unicode-3.1/",
+					"$(SRCROOT)/../tbb/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/../wx/lib",
+					"$(SRCROOT)/../tbb/lib",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-D_FILE_OFFSET_BITS=64",
+					"-DWXUSINGDLL",
+					"-D__WXMAC__",
+					"-D__WXOSX__",
+					"-D__WXOSX_COCOA__",
+				);
+				OTHER_LDFLAGS = (
+					"-lwx_osx_cocoau_core-3.1.0.0.0",
+					"-lwx_baseu-3.1.0.0.0",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		92F34C9F1A5200BC00A998AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../wx/include",
+					"$(SRCROOT)/../wx/lib/osx_cocoa-unicode-3.1/",
+					"$(SRCROOT)/../tbb/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/../wx/lib",
+					"$(SRCROOT)/../tbb/lib",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-D_FILE_OFFSET_BITS=64",
+					"-DWXUSINGDLL",
+					"-D__WXMAC__",
+					"-D__WXOSX__",
+					"-D__WXOSX_COCOA__",
+				);
+				OTHER_LDFLAGS = (
+					"-lwx_osx_cocoau_core-3.1.0.0.0",
+					"-lwx_baseu-3.1.0.0.0",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92F34C911A5200BC00A998AC /* Build configuration list for PBXProject "paint-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92F34C9B1A5200BC00A998AC /* Debug */,
+				92F34C9C1A5200BC00A998AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92F34C9D1A5200BC00A998AC /* Build configuration list for PBXNativeTarget "paint-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92F34C9E1A5200BC00A998AC /* Debug */,
+				92F34C9F1A5200BC00A998AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92F34C8E1A5200BC00A998AC /* Project object */;
+}
