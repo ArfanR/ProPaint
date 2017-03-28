@@ -22,37 +22,37 @@ void PencilShape::Update(const wxPoint& newPoint)
 
 void PencilShape::Finalize()
 {
-    int mMinX = mStartPoint.x;
-    int mMinY = mStartPoint.y;
-    int mMaxX = mStartPoint.x;
-    int mMaxY = mStartPoint.y;
+    int minX = mStartPoint.x;
+    int minY = mStartPoint.y;
+    int maxX = mStartPoint.x;
+    int maxY = mStartPoint.y;
     // loop through each point
     for (const auto& i: mPoints)
     {
         // look for min and max x values
-        if (i.x < mMinX)
+        if (i.x < minX)
         {
-            mMinX = i.x;
+            minX = i.x;
         }
-        else if (i.x > mMaxX)
+        else if (i.x > maxX)
         {
-            mMaxX = i.x;
+            maxX = i.x;
         }
         // look for min and max y values
-        if (i.y < mMinY)
+        if (i.y < minY)
         {
-            mMinY = i.y;
+            minY = i.y;
         }
-        else if (i.y > mMaxY)
+        else if (i.y > maxY)
         {
-            mMaxY = i.y;
+            maxY = i.y;
         }
     }
     // assign top left and bottom right coordinates
-    mTopLeft.x = mMinX;
-    mTopLeft.y = mMinY;
-    mBotRight.x = mMaxX;
-    mBotRight.y = mMaxY;
+    mTopLeft.x = minX;
+    mTopLeft.y = minY;
+    mBotRight.x = maxX;
+    mBotRight.y = maxY;
 }
 
 void PencilShape::Draw(wxDC& dc) const
